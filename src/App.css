@@ -3,84 +3,12 @@
   min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-input[type=text],
-input[type=password] {
-  width: 100%;
-  padding: 1rem;
-  margin: 0.25rem 0 1.25rem 0;
-  display: inline-block;
-  border: none;
-  border-radius: 0.25rem;
-  background-color: #f1f1f1;
-}
-
-input[type=text]:focus,
-input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 1.5rem;
-}
-
-button {
-  background-color: #04AA6D;
-  color: #fff;
-  padding: 0.75rem 1.25rem;
-  margin: 0.5rem 0;
-  border: none;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity: 1;
-}
-
-.cancel-btn {
-  background-color: #f44336;
-}
-
-.cancel-btn,
-.signup-btn {
-  width: 50%;
-}
-
-form {
-  max-width: 35rem;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-}
-
-.container {
-  padding: 1rem 2rem;
-}
-
-.clearfix {
-  display: flex;
-  gap: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (max-width: 300px) {
-  .cancel-btn, .signup-btn {
-    width: 100%;
+@media screen and (max-width: 640px) {
+  #root {
+    padding: 0 0.25rem;
   }
 }
