@@ -2,7 +2,7 @@
 
 This project contains a simple sign-up form application developed using React.js, Formik and Yup.
 
-### [Preview Url]()
+### [Preview Url](https://react-sign-up-form-peach.vercel.app/)
 
 ### Screenshots
 ![todo-app](https://github.com/ErsinCol/react-sign-up-form/blob/main/project-image.png)
