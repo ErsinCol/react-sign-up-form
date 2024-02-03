@@ -10,14 +10,14 @@ function App() {
               <hr/>
 
               <label htmlFor="email"><b>Email</b></label>
-              <input type="email" placeholder="Enter Email" id="email" name="email" required/>
+              <input type="text" placeholder="Enter Email" id="email" name="email" required autoComplete="off"/>
 
               <label htmlFor="password"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" id="password" name="password" required/>
+              <input type="password" placeholder="Enter Password" id="password" name="password" required autoComplete="off"/>
 
               <label htmlFor="password-repeat"><b>Repeat Password</b></label>
               <input type="password" placeholder="Repeat Password" id="password-repeat" name="password-repeat"
-                     required/>
+                     required autoComplete="off"/>
 
               <label>
                   <input type="checkbox" checked name="remember" style={{marginBottom: "1rem"}}/>
